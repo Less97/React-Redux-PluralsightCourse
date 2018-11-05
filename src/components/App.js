@@ -5,7 +5,7 @@ class App extends React.Component {
     return (
       <div className="container-fluid">
         <p>Header here... </p>
-        {this.props.childen}
+        {this.props.children}
       </div>
     );
   }
@@ -13,7 +13,7 @@ class App extends React.Component {
 
 App.propTypes = {
   children:PropTypes.object.isRequired
-}
+};
 
 
 export default App;
